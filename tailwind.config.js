@@ -5,6 +5,8 @@ module.exports = {
   purge: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/data/**/*.{js,ts,jsx,tsx}",
+    "./src/themes/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -21,8 +23,6 @@ module.exports = {
       "dark-toggle-from": "hsl(210, 78%, 56%)",
       "dark-toggle-to": "hsl(146, 68%, 55%)",
       "light-toggle": "hsl(230, 22%, 74%)",
-
-      "lime-green": "hsl(163, 72%, 41%)",
 
       dark: {
         bg: "hsl(230, 17%, 14%)",
@@ -42,6 +42,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      },
+      letterSpacing: {
+        "most-widest": "0.3em",
       },
     },
   },
