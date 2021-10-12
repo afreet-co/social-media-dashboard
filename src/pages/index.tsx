@@ -7,7 +7,7 @@ const Index = () => {
   const { theme } = useAppContext();
   return (
     <div
-      className={`w-screen sm:h-screen px-6 pb-10 sm:px-56 ${theme.background} ${theme.text} duration-150 transition-all`}
+      className={`w-screen sm:h-screen px-6 pb-10 sm:px-56 xl:px-72 ${theme.background} ${theme.text} duration-150 transition-all`}
     >
       <div className={`flex sm:flex-row flex-col justify-between`}>
         <div
